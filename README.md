@@ -18,3 +18,7 @@ I would like to thank the following web page that served as a guide and support 
 # Authors #
 Author: <b>Denzel Baysa Castro</b>
 <p>This work is made by one person</p>
+
+# Following Desing #
+<p>This is the link of the web design that I followed</p>
+<a src="https://dribbble.com/shots/22897739-Agency-website">Click here</a>
