@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+
+    <link rel="stylesheet" href="css/Search.css">
+</head>
+
+<body>
+
+    <!-- Barra de menú -->
+    <div class="topnav" id="myTopnav">
+        <a href="Home.html">Home</a>
+        <a href="Aircrafts.html">Aircrafts</a>
+        <a href="Engines.html">Engines</a>
+        <a href="Search.html" class="active">Search</a>
+        <a href="Contact.html">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Home.html">Home</a>
+                <a href="Aircrafts.html">Aircrafts</a>
+                <a href="Engines.html">Engines</a>
+                <a href="Search.html" class="active">Search</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="left-side">“When everything seems to be against you, remember that a plane takes off against the wind, not with it”. <b><i>Henry Ford</i></b></p>
+            </div>
+            <div class="col-sm-6">
+                <div class="left-side">
+                    <form id="aircraft-form" action="Search.html">
+                        <div class="mb-3 mt-3">
+                            <label for="brand" class="form-label">Brand:</label>
+                            <input type="text" class="form-control" id="brand" placeholder="Enter brand" name="brand">
+                            <span id="brand-error">*Field Required</span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="model" class="form-label">Model:</label>
+                            <input type="text" class="form-control" id="model" placeholder="Enter model">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="left-side">
+                    <h2>Aircraft List</h2>
+                    <ul id="aircraft-list">
+                        <li>Airbus</li>
+                        <li>Boeing</li>
+                        <li>Bombardier</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/Search.js"></script>
+</body>
+
+<footer>
+    <a href="https://www.google.com"></i>Google</a>
+    <a href="https://www.x.com">X</a>
+    <a href="https://www.simpleplanes.com">SimplePlanes</a>
+    <a href="https://www.wikipedia.org">Wikipedia</a>
+</footer> 
+
+</html>
